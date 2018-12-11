@@ -1,0 +1,16 @@
+{
+  "name": "promo_slider",
+  "version": "1.0.0",
+  "description": "Промо слайдер",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/promo_slider",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "cellsio": "https://github.com/insales-components/cellsio",
+    "slider": "https://github.com/insales-components/slider"
+  }
+}
