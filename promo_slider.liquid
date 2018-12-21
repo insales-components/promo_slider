@@ -1,9 +1,9 @@
-{% if block_lists.promo-slider.blocks.size > 0 %}
+{% if block_lists.with_template['system-promo-slide'].promo-slider.blocks.size > 0 %}
   <div class="promo_slider-wrapper">
     <div class="promo_slider swiper-container">
       <div class="swiper-wrapper">
 
-        {% for slide in block_lists.promo-slider.blocks %}
+        {% for slide in block_lists.with_template['system-promo-slide'].promo-slider.blocks %}
           <div class="promo-slide swiper-slide">
             {% assign tag = 'div' %}
             {% assign attr = '' %}
